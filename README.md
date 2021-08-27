@@ -71,5 +71,3 @@ The test samples are in the folder, the .sy file is the sample file
 The output file path should be in a directory that already exists, an out folder has been created to store the output, or you can create your own folder
 
 Author: Ma Yanxiang
-
-Translated with www.DeepL.com/Translator (free version)
