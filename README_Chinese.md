@@ -13,6 +13,7 @@ SysY编译器，可以编译SysY文件，生成arm指令
 file_path为样例文件路径，output_path为输出文件路径
 指令会被输出到output_path中，其中
 
+
 算例测试：
 在./test路径下
 使用qemu-arm虚拟机进行测试
@@ -36,7 +37,8 @@ done
 echo "PASS/TOTAL = "$x" / "$y
 """
 
-qemu生成＋输出对比
+
+qemu生成＋输出对比:
 """
 x=0
 y=0
@@ -56,14 +58,6 @@ do
 done
 echo "PASS/TOTAL = "$x" / "$y
 """
-
-在windows下运行时，代码中的请将
-"""
-include <unistd.h>
-"""
-改为
-include "unistd.h"
-直接在编译器中编译运行即可
 
 
 文件位置：
